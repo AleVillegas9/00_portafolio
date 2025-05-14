@@ -1,0 +1,264 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 13 12:12:51 2025
+
+@author: Dell
+"""
+
+html_content = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio de Alejandro Villegas</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    .header-info {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .contact-info p,
+    .about p {
+      margin-bottom: 10px;
+    }
+
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 15px;
+      padding: 0;
+    }
+
+    .skills li {
+      background-color: #eee;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      margin-bottom: 10px;
+    }
+
+    .project a {
+      display: inline-block;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sección 1: Encabezado -->
+  <header>
+    <h1>Portafolio de Proyectos</h1>
+    <div class="header-info">
+      <div><strong>Nombre:</strong> Alejandro Villegas</div>
+      <div><strong>Rol:</strong> Consultor </div>
+    </div>
+  </header>
+
+  <!-- Sección 2: Sobre mí -->
+  <section class="section about">
+    <h2>Sobre mí</h2>
+    <p>Me interesan la ciencia de datos, la inteligencia artificial, las políticas públicas y la gestión de proyectos.
+Me interesa un trabajo donde pueda aplicar los avances tecnológicos referentes a la inteligencia artificial a la
+solución de problemas públicos y organizacionales. He realizado investigaciónes sobre el uso de nuevas tecnologías
+en organizaciones gubernamentales, sobre la aplicación de
+Large Language Models
+(LLM’s) para la clasificación de
+textos y sobre el uso de la generación aumentada por recuperación (RAG, por sus siglas en inglés) para la
+optimización de los LLM’s en contextos particulares..</p>
+  </section>
+
+  <!-- Sección 3: Tecnologías que uso -->
+  <section class="section skills">
+    <h2>Tecnologías que uso</h2>
+    <ul>
+      <li>Paquetería Office</li>
+      <li>R y R Studio</li>
+      <li>Python</li>
+      <li>Power Bi</li>
+      <li>Qgis</li>
+      <li>SQL</li>
+      <li>Git y Git Hub</li>
+      <li>LLM's</li>
+    </ul>
+  </section>
+
+  <!-- Sección 4: Contacto -->
+  <section class="section contact-info">
+    <h2>Contacto</h2>
+    <p><strong>Email:</strong> java.law.1993@gmail.com</p>
+    <p><strong>Teléfono:</strong> +52 55 8449 4633</p>
+    <p><strong> Lugar de residencia:</strong> Ciudad de México</p>
+    
+    <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/alejandro-villegas-alp%C3%ADzar-b65527216/" target="_blank"> www.linkedin.com/in/alejandro-villegas-alpízar-b65527216</a></p>
+    
+    <p><strong>GitHub:</strong> <a href="https://github.com/AleVillegas9" target="_blank">https://github.com/AleVillegas9</a></p>
+  </section>
+
+  <!-- Sección 5: Proyectos -->
+  <section class="section">
+    <h2>Proyectos</h2>
+    <div class="projects">
+
+      <!-- Proyecto 1 -->
+      <div class="project">
+        <h3>01. Uso de Qgis y R para conocer la población del Área de Influencia de un proyecto</h3>
+        <img src="https://via.placeholder.com/800x300" alt="Proyecto 1">
+        <p>Supongamos que se tiene georeferenciada polígono de un proyecto. Sin embargo, para evaluar la viabilidad y el imapacto social de dicho proyecto se requiere conocer ¿cuál es el Área de Influencia de dicho proyecto? y ¿ A cuantas personas potencialmente afectaría nuestro proyecto?</p>
+        <a href="https://alevillegas9.github.io/01_poblacion_ai/01.html" target="_blank">Ver proyecto</a>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="project">
+        <h3>Visualizador de Datos Climáticos</h3>
+        <img src="https://via.placeholder.com/800x300" alt="Proyecto 2">
+        <p>Herramienta para visualizar y analizar datos meteorológicos históricos mediante gráficos interactivos.</p>
+        <a href="https://github.com/juanperez/clima-viz" target="_blank">Ver proyecto</a>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="project">
+        <h3>Blog Personal con Markdown</h3>
+        <img src="https://via.placeholder.com/800x300" alt="Proyecto 3">
+        <p>Blog simple construido con HTML, CSS y un convertidor de Markdown para publicaciones dinámicas.</p>
+        <a href="https://github.com/juanperez/blog-markdown" target="_blank">Ver proyecto</a>
+      </div>
+
+      <!-- Proyecto 4 -->
+      <div class="project">
+        <h3>Sistema de Inventario</h3>
+        <img src="https://via.placeholder.com/800x300" alt="Proyecto 4">
+        <p>Aplicación de escritorio para llevar el control de inventario de una tienda local con base de datos SQLite.</p>
+        <a href="https://github.com/juanperez/inventario-sistema" target="_blank">Ver proyecto</a>
+      </div>
+
+      <!-- Proyecto 5 -->
+      <div class="project">
+        <h3>Dashboard de Análisis Financiero</h3>
+        <img src="https://via.placeholder.com/800x300" alt="Proyecto 5">
+        <p>Dashboard interactivo que muestra indicadores financieros clave usando gráficos en tiempo real.</p>
+        <a href="https://github.com/juanperez/finanzas-dashboard" target="_blank">Ver proyecto</a>
+      </div>
+      
+      <!-- Proyecto 6 -->
+      <div class="project">
+        <h3>LALALAALA</h3>
+        <img src="https://via.placeholder.com/800x300" alt="Proyecto 4">
+        <p>Aplicación de escritorio para llevar el control de inventario de una tienda local con base de datos SQLite.</p>
+        <a href="https://github.com/juanperez/inventario-sistema" target="_blank">Ver proyecto</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Juan Pérez. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
+
+"""
+
+#0909090909090909090
+import os
+
+# Ruta de la carpeta donde quieres guardar el archivo
+carpeta_destino = r"C:\Users\javal\OneDrive\Desktop\Portafolio 9\00_portafolio"
+archivo_html = r"C:\Users\javal\OneDrive\Desktop\Portafolio 9\00_portafolio\index.html"
+
+# Crear la carpeta si no existe
+os.makedirs(carpeta_destino, exist_ok=True)
+
+# Ruta completa del archivo
+ruta_completa = os.path.join(carpeta_destino, archivo_html)
+
+# Escribir el archivo HTML
+with open(ruta_completa, "w", encoding="utf-8") as file:
+    file.write(html_content)
+
+print(f"Archivo HTML creado exitosamente en: {ruta_completa}")
