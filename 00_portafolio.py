@@ -194,10 +194,10 @@ optimización de los LLM’s en contextos particulares..</p>
 
       <!-- Proyecto 2 -->
       <div class="project">
-        <h3>Visualizador de Datos Climáticos</h3>
+        <h3>Llenado automático de archivos desde una base de datos con python</h3>
         <img src="https://via.placeholder.com/800x300" alt="Proyecto 2">
-        <p>Herramienta para visualizar y analizar datos meteorológicos históricos mediante gráficos interactivos.</p>
-        <a href="https://github.com/juanperez/clima-viz" target="_blank">Ver proyecto</a>
+        <p>Código para llenar de manera automática y masiva documentos dese una base de datos.</p>
+        <a href="https://alevillegas9.github.io/02_Llenado_automatico_documentos/02.html" target="_blank">Ver proyecto</a>
       </div>
 
       <!-- Proyecto 3 -->
