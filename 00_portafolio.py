@@ -94,11 +94,12 @@ html_content = """
     }
 
     .project img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
+      width: 90%;
+      max-height: 250px;
+      object-fit: contain;
       border-radius: 8px;
-      margin-bottom: 10px;
+      margin: 0 auto 10px;
+      display:block;
     }
 
     .project h3 {
@@ -164,6 +165,7 @@ optimización de los LLM’s en contextos particulares..</p>
       <li>SQL</li>
       <li>Git y Git Hub</li>
       <li>LLM's</li>
+      <li>Jupyter</li>
     </ul>
   </section>
 
@@ -187,56 +189,38 @@ optimización de los LLM’s en contextos particulares..</p>
       <!-- Proyecto 1 -->
       <div class="project">
         <h3>01. Uso de Qgis y R para conocer la población del Área de Influencia de un proyecto</h3>
-        <img src="https://via.placeholder.com/800x300" alt="Proyecto 1">
+        <img src="imagenes/01_imagen.png" alt="Proyecto 1">
         <p>Supongamos que se tiene georeferenciada polígono de un proyecto. Sin embargo, para evaluar la viabilidad y el imapacto social de dicho proyecto se requiere conocer ¿cuál es el Área de Influencia de dicho proyecto? y ¿ A cuantas personas potencialmente afectaría nuestro proyecto?</p>
         <a href="https://alevillegas9.github.io/01_poblacion_ai/01.html" target="_blank">Ver proyecto</a>
       </div>
 
       <!-- Proyecto 2 -->
       <div class="project">
-        <h3>Llenado automático de archivos desde una base de datos con python</h3>
-        <img src="https://via.placeholder.com/800x300" alt="Proyecto 2">
-        <p>Código para llenar de manera automática y masiva documentos dese una base de datos.</p>
+        <h3>02. Llenado automático de archivos desde una base de datos con python</h3>
+        <img src="imagenes/02_imagen.png" alt="Proyecto 2">
+        <p>Demostración de cómo llenar de manera automática y masiva documentos dese una base de datos. De esta mane se pueden crear documentos personalizados de manera automática.</p>
         <a href="https://alevillegas9.github.io/02_Llenado_automatico_documentos/02.html" target="_blank">Ver proyecto</a>
       </div>
 
       <!-- Proyecto 3 -->
       <div class="project">
-        <h3>Blog Personal con Markdown</h3>
-        <img src="https://via.placeholder.com/800x300" alt="Proyecto 3">
-        <p>Blog simple construido con HTML, CSS y un convertidor de Markdown para publicaciones dinámicas.</p>
-        <a href="https://github.com/juanperez/blog-markdown" target="_blank">Ver proyecto</a>
-      </div>
-
-      <!-- Proyecto 4 -->
-      <div class="project">
-        <h3>Sistema de Inventario</h3>
-        <img src="https://via.placeholder.com/800x300" alt="Proyecto 4">
-        <p>Aplicación de escritorio para llevar el control de inventario de una tienda local con base de datos SQLite.</p>
-        <a href="https://github.com/juanperez/inventario-sistema" target="_blank">Ver proyecto</a>
-      </div>
-
-      <!-- Proyecto 5 -->
-      <div class="project">
-        <h3>Dashboard de Análisis Financiero</h3>
-        <img src="https://via.placeholder.com/800x300" alt="Proyecto 5">
-        <p>Dashboard interactivo que muestra indicadores financieros clave usando gráficos en tiempo real.</p>
-        <a href="https://github.com/juanperez/finanzas-dashboard" target="_blank">Ver proyecto</a>
+        <h3>03. Monitoreo semiautomático de noticias con IA.</h3>
+        <img src="imagenes/03_imagen.png" alt="Proyecto 3">
+        <p>Demostración de cómo se puede utilizar python y la inteligencia artificial (LLM's) para semiautomatizar el flujo de trabajo de un monitor de noticias</p>
+        <a href="https://alevillegas9.github.io/04_monitoreo_noticias_con_IA/04.html" target="_blank">Ver proyecto</a>
       </div>
       
-      <!-- Proyecto 6 -->
-      <div class="project">
-        <h3>LALALAALA</h3>
-        <img src="https://via.placeholder.com/800x300" alt="Proyecto 4">
-        <p>Aplicación de escritorio para llevar el control de inventario de una tienda local con base de datos SQLite.</p>
-        <a href="https://github.com/juanperez/inventario-sistema" target="_blank">Ver proyecto</a>
-      </div>
+      <!-- Otros -->
+<div class="project">
+  <h3>EXTRA: Análisis del Programa ADA en San Luis Potosí</h3>
+  <img src="imagenes/extra_01_imagen.png" alt="Programa Ada - Proyecto">
+  <p>En marco del Policy Lab organizado por la UNESCO en el año 2024 participé en la creación del análisis y propuestas de mejora del diseño e implementación del Programa ADA, orientado al fortalecimiento de habilidades STEM en mujeres adolescentes en San Luis Potosí, México.</p>
+  <a href="https://unesdoc.unesco.org/ark:/48223/pf0000391226" target="_blank">Ver proyecto</a>
+</div>
 
-    </div>
-  </section>
 
   <footer>
-    © 2025 Juan Pérez. Todos los derechos reservados.
+    © 2025 Alejandro Villegas. Todos los derechos reservados.
   </footer>
 
 </body>
