@@ -140,24 +140,17 @@ html_content = """
     </div>
   </header>
 
-  <!-- Sección 2: Sobre mí -->
+  <!-- Sección 2: Perfil -->
   <section class="section about">
-    <h2>Sobre mí</h2>
-    <p>Me interesan la ciencia de datos, la inteligencia artificial, las políticas públicas y la gestión de proyectos.
-Me interesa un trabajo donde pueda aplicar los avances tecnológicos referentes a la inteligencia artificial a la
-solución de problemas públicos y organizacionales. He realizado investigaciónes sobre el uso de nuevas tecnologías
-en organizaciones gubernamentales, sobre la aplicación de
-Large Language Models
-(LLM’s) para la clasificación de
-textos y sobre el uso de la generación aumentada por recuperación (RAG, por sus siglas en inglés) para la
-optimización de los LLM’s en contextos particulares..</p>
+    <h2>Perfil</h2>
+    <p>Profesional con experiencia en la ciencia de datos, inteligencia artificial, políticas públicas y lagestión de proyectos. Me interesan las áreas donde se puedan aplicar las tecnologías emergentes a la solución de problemas públicos y organizacionales. He realizado investigaciones sobre el uso de tecnologías de inteligencia artificial en organizaciones gubernamentales, sobre la aplicaciónde Large Language Models (LLM’s) para análisis y clasificación de textos y automatización detareas. Sumado a ello, he participado en evaluaciónes de proyectos, tanto en la parte cualitativa,como cuantitativa.</p>
   </section>
 
-  <!-- Sección 3: Tecnologías que uso -->
+  <!-- Sección 3: Tecnologías con las cuales tengo experiencia -->
   <section class="section skills">
-    <h2>Tecnologías que uso</h2>
+    <h2>Tecnologías con las cuales tengo experiencia</h2>
     <ul>
-      <li>Paquetería Office</li>
+      <li>Paquetería Office, especialmente, Word, Excel y Power Point</li>
       <li>R y R Studio</li>
       <li>Python</li>
       <li>Power Bi</li>
@@ -165,7 +158,7 @@ optimización de los LLM’s en contextos particulares..</p>
       <li>SQL</li>
       <li>Git y Git Hub</li>
       <li>LLM's</li>
-      <li>Jupyter</li>
+      <li>Jupyter Notebook</li>
       <li>SQL</li>
     </ul>
   </section>
@@ -207,7 +200,7 @@ optimización de los LLM’s en contextos particulares..</p>
       <div class="project">
         <h3>03. Monitoreo semiautomático de noticias con IA.</h3>
         <img src="imagenes/03_imagen.png" alt="Proyecto 3">
-        <p>Demostración de cómo se puede utilizar python y la inteligencia artificial (LLM's) para semiautomatizar el flujo de trabajo de un monitor de noticias. Desde la recuperación de las noticias relevantes de un portal, hasta la clasificación, resumen y presentación de los resultados.</p>
+        <p>Demostración de cómo se puede utilizar Python y la inteligencia artificial (LLM's) para semiautomatizar el flujo de trabajo de un monitor de noticias. Desde la recuperación de las noticias relevantes de un portal, hasta la clasificación, resumen y presentación de los resultados.</p>
         <a href="https://alevillegas9.github.io/04_monitoreo_noticias_con_IA/04.html" target="_blank">Ver proyecto</a>
       </div>
       
