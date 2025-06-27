@@ -204,6 +204,14 @@ html_content = """
         <a href="https://alevillegas9.github.io/04_monitoreo_noticias_con_IA/04.html" target="_blank">Ver proyecto</a>
       </div>
       
+      <!-- Proyecto 4 -->
+      <div class="project">
+        <h3>04. Clasificación y chatbot con documentos jurídicos usando Retrieval Augmentend Generation (RAG).</h3>
+        <img src="imagenes/04_imagen.png" alt="Proyecto 4">
+        <p>Ejemplo de cómo se puede utilizar el poder la inteligencia artificial y de los LLM's en partícular para clasificar, resumir y explorar/chatear con diferentes tipos de textos. Para ello se hace el uso del Retrieval Agumented Generation (RAG), pues esta técnica permite la  optimización de consultas de documentos extensos.</p>
+        <a href="https://alevillegas9.github.io/03_rag_clas_chat/03.html" target="_blank">Ver proyecto</a>
+      </div>
+      
       <!-- Otros -->
       
 <div class="project">
