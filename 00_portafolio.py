@@ -209,7 +209,7 @@ html_content = """
 <div class="project">
   <h3>EXTRA: Antología de movimientos de apropiación de tecnologías de la información: caso del Laboratorio de Ciencia de Datos y Métodos Modernos de Producción de Información</h3>
   <img src="imagenes/extra_02_imagen.png" alt="Tesis maestría">
-  <p>En el marco de la Maestría en Administración y Política Pública impartida por el Centro de Invstigación y Docencian Economicas (CIDE), realicé una investigación cualitativa sobre sobre el uso y gobernanza de las herramientas de Inteligencia Artifiial en el Laboratorio de Ciencia de Datos del INEGI. Esto me permitió observar cuáles son los dificultades organizacionales presentes en la adopción y uso de estas tecnologías, así como la manera en que la organización enfrenta estos problemas, o aprovecha las ventajas. </p>
+  <p>En el marco de la Maestría en Administración y Política Pública impartida por el Centro de Investigación y Docencia Economicas (CIDE), realicé una investigación cualitativa sobre sobre el uso y gobernanza de las herramientas de Inteligencia Artificial en el Laboratorio de Ciencia de Datos del INEGI. Esto me permitió observar cuáles son los dificultades organizacionales presentes en la adopción y uso de estas tecnologías, así como la manera en que la organización enfrenta estos problemas, o aprovecha las ventajas. </p>
   <a href="https://repositorio-digital.cide.edu//handle/11651/6205" target="_blank">Ver proyecto</a>
 </div>
 
