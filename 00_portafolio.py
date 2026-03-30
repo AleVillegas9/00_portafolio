@@ -133,7 +133,7 @@ html_content = """
 
   <!-- Sección 1: Encabezado -->
   <header>
-    <h1>Portafolio de Proyectos</h1>
+    <h1>Portafolio de Proyectos.</h1>
     <div class="header-info">
       <div><strong>Nombre:</strong> Alejandro Villegas</div>
       <div><strong>Rol:</strong> Consultor </div>
